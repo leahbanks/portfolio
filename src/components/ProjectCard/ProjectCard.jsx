@@ -2,20 +2,12 @@ import "./ProjectCard.css";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
-  const { title, info, tech, code, website } = project;
+  const { title, info, tech, code, snapshots, website } = project;
   return (
     <section>
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
           <h3>{title}</h3>
-          <header>
-            <ul className="tech" style={{ listStyle: "none" }}>
-              {tech.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </header>
-          <p>{info}</p>
         </div>
         <div className="project-links">
           {code && (
@@ -29,6 +21,23 @@ export default function ProjectCard({ project }) {
             </a>
           )}
         </div>
+        <header>
+          <ul className="tech" style={{ listStyle: "none" }}>
+            {tech.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </header>
+        <p>{info}</p>
+        <div className="snapshots-container">
+          {snapshots.map((snapshot) => (
+            <img
+              className="snapshots"
+              src={snapshot}
+              alt={`snapshot of ${title}`}
+            />
+          ))}
+        </div>{" "}
       </li>
     </section>
   );
