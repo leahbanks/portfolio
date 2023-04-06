@@ -5,11 +5,11 @@ export default function ProjectCard({ project }) {
   const { title, info, tech, code, website } = project;
   return (
     <section>
-      <li className="project-card">
+      <li className="project-card" style={{ listStyle: "none" }}>
         <div>
           <h3>{title}</h3>
           <header>
-            <ul className="tech">
+            <ul className="tech" style={{ listStyle: "none" }}>
               {tech.map((item) => (
                 <li key={item}>{item}</li>
               ))}
