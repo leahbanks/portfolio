@@ -8,18 +8,18 @@ export default function ProjectCard({ project }) {
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
           <h3>{title}</h3>
-        </div>
-        <div className="project-links">
-          {code && (
-            <a href={code} target="_blank" rel="noreferrer">
-              <FaGithub />
-            </a>
-          )}
-          {website && (
-            <a href={website} target="_blank" rel="noreferrer">
-              <FaExternalLinkAlt />
-            </a>
-          )}
+          <div className="project-links">
+            {code && (
+              <a href={code} target="_blank" rel="noreferrer">
+                <FaGithub />
+              </a>
+            )}
+            {website && (
+              <a href={website} target="_blank" rel="noreferrer">
+                <FaExternalLinkAlt />
+              </a>
+            )}
+          </div>
         </div>
         <header>
           <ul className="tech" style={{ listStyle: "none" }}>
