@@ -5,7 +5,7 @@ export default function AboutCard({ card }) {
   const { heading, subheading, info, skills, icon } = card;
 
   return (
-    <section>
+    <section className="about-container">
       <li className="about-card" style={{ listStyle: "none" }}>
         <div>
           <h3>{heading} {icon}</h3>

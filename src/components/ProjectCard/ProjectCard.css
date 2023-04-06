@@ -1,11 +1,29 @@
 .snapshots-container {
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .snapshots {
  
-  width: 300px;
+  width: 250px;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 80vh;
+  border: 2px solid black;
 }

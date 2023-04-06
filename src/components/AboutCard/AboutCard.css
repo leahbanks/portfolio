@@ -1,0 +1,10 @@
+.about-container {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    border: 2px solid green;
+}

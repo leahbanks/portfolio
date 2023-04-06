@@ -4,7 +4,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 export default function ProjectCard({ project }) {
   const { title, info, tech, code, snapshots, website } = project;
   return (
-    <section>
+    <section className="project-container">
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
           <h3>{title}</h3>
