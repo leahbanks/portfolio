@@ -38,7 +38,7 @@ export default function Projects() {
       tech: [],
       code: "https://github.com/leahbanks/BE-through-the-fog",
       snapshots: [],
-      website: "fog-of-war-auth.onrender.com/api-docs/",
+      website: "https://fog-of-war-auth.onrender.com/api-docs/",
     },
     {
       title: "Portfolio",
