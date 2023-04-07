@@ -9,29 +9,32 @@ export default function Contact() {
   };
   return (
     <section>
-      <div className="about-links">
-        <h2>Contact Me</h2>
+       <h2>Contact Me</h2>
+      <div className="contact-links">
         <FaLinkedinIn />
         <HiOutlineMail />
       </div>
       <div id="contact" className="contact-container">
-        <h5>Get In Touch</h5>
+        <h5>Send a Message</h5>
         <form
           onSubmit={(e) => {
             sendMessage(e);
           }}
         >
-          <input type="text" name="name" placeholder="Your Name" required />
+          <label htmlFor="name" className="label">Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+          <label htmlFor="email" className="label">Email</label>
           <input
             type="email"
             name="email"
-            placeholder="Your Email Address"
+            placeholder="Your email address"
             required
           />
+          <label htmlFor="message" className="label">Message</label>
           <textarea
             name="message"
             rows="8"
-            placeholder="Your Message"
+            placeholder="Your message for me..."
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">

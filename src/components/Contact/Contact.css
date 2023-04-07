@@ -16,3 +16,7 @@ textarea {
   background-color: transparent;
   resize: none;
 }
+
+.label {
+  text-align: left;
+}
