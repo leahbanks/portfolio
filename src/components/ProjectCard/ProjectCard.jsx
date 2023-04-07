@@ -3,6 +3,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
   const { title, info, tech, code, snapshots, website } = project;
+  console.log(snapshots)
   return (
     <section className="project-container">
       <li className="project-card" style={{ listStyle: "none" }}>
@@ -24,7 +25,7 @@ export default function ProjectCard({ project }) {
         <header>
           <ul className="tech" style={{ listStyle: "none" }}>
             {tech.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item.length}>{item}</li>
             ))}
           </ul>
         </header>
@@ -32,9 +33,10 @@ export default function ProjectCard({ project }) {
         <div className="snapshots-container">
           {snapshots.map((snapshot) => (
             <img
-              className="snapshots"
+              className={title === "NC News" ? "news-snapshots" : "fog-snapshots"}
               src={snapshot}
               alt={`snapshot of ${title}`}
+              key={snapshot}
             />
           ))}
         </div>{" "}

@@ -1,7 +1,17 @@
-import firstNCNews from "/Users/leah/Desktop/coding/portfolio/src/photos/fe-ncnews/4.png";
-import secondNCNews from "/Users/leah/Desktop/coding/portfolio/src/photos/fe-ncnews/3.png";
-import thirdNCNews from "/Users/leah/Desktop/coding/portfolio/src/photos/fe-ncnews/2.png";
-import fourthNCNews from "/Users/leah/Desktop/coding/portfolio/src/photos/fe-ncnews/1.png";
+import firstNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/4.png";
+import secondNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/3.png";
+import thirdNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/2.png";
+import fourthNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/1.png";  
+
+import firstThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/1.png";
+import secondThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/2.png";
+import thirdThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/3.png";
+import fourthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/4.png";
+import fifthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/5.png";
+import sixthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/6.png";
+import seventhThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/7.png";
+import eighthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/8.png";
+import ninthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/9.png";
 
 import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
@@ -17,16 +27,8 @@ export default function Projects() {
       info: "",
       tech: [<DiJsBadge />, <TbBrandReactNative/>, <DiHtml5 />, <DiCss3 />, <SiPassport />, <SiGooglemaps/>],
       code: "https://github.com/leahbanks/FE-through-the-fog",
-      snapshots: [],
+      snapshots: [firstThroughFog, secondThroughFog, thirdThroughFog, fourthThroughFog, fifthThroughFog, sixthThroughFog, seventhThroughFog, eighthThroughFog, ninthThroughFog],
       website: "https://user-images.githubusercontent.com/23381975/229468456-36d01223-2820-46d6-86a5-441aef5a1640.mp4"
-    },
-    {
-      title: "Through the Fog API",
-      info: "",
-      tech: [<DiJsBadge />, <DiPostgresql />],
-      code: "https://github.com/leahbanks/BE-through-the-fog",
-      snapshots: [],
-      website: "https://fog-of-war-auth.onrender.com/api-docs/",
     },
     {
       title: "NC News",
@@ -35,6 +37,14 @@ export default function Projects() {
       code: "https://github.com/leahbanks/FE_nc_news",
       snapshots: [firstNCNews, secondNCNews, thirdNCNews, fourthNCNews],
       website: "https://nc-news-lb.netlify.app/",
+    },
+    {
+      title: "Through the Fog API",
+      info: "",
+      tech: [<DiJsBadge />, <DiPostgresql />],
+      code: "https://github.com/leahbanks/BE-through-the-fog",
+      snapshots: [],
+      website: "https://fog-of-war-auth.onrender.com/api-docs/",
     },
     {
       title: "NC News API",
