@@ -10,14 +10,12 @@ export default function Contact() {
   return (
     <section>
       <div className="about-links">
-        <h2>Get In Touch</h2>
+        <h2>Contact Me</h2>
         <FaLinkedinIn />
         <HiOutlineMail />
       </div>
-      <div id="contact" className="container">
+      <div id="contact" className="contact-container">
         <h5>Get In Touch</h5>
-        <h2>Contact Me</h2>
-
         <form
           onSubmit={(e) => {
             sendMessage(e);
