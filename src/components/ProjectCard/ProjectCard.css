@@ -1,13 +1,13 @@
 .snapshots-container {
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+  overflow: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
 }
 
 .snapshots {
- 
-  width: 250px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  width: 300px;
 }
 
 .tech {
