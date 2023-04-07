@@ -7,8 +7,7 @@ export default function ProjectCard({ project }) {
     <section className="project-container">
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
-          <h3>{title}</h3>
-          <div className="project-links">
+          <div className="project-icons">
             {code && (
               <a href={code} target="_blank" rel="noreferrer">
                 <FaGithub />
@@ -20,17 +19,12 @@ export default function ProjectCard({ project }) {
               </a>
             )}
           </div>
+          <h3>{title}</h3>
         </div>
-        <header>
-          <ul className="tech" style={{ listStyle: "none" }}>
-            {tech.map((item) => (
-              <p key={item.name}>{item.img}</p>
-            ))}
-          </ul>
-        </header>
+        <header></header>
         <p>{info}</p>
         {snapshots.length > 0 ? (
-          <h4 className="snapshots-heading">Snapshots</h4>
+          <h4 className="snapshots-heading">Snapshots ➔</h4>
         ) : null}
         <div className="snapshots-container">
           {snapshots.map((snapshot) => (
@@ -44,6 +38,11 @@ export default function ProjectCard({ project }) {
             />
           ))}
         </div>{" "}
+        <ul className="tech" style={{ listStyle: "none" }}>
+          {tech.map((item) => (
+            <p key={item.name}>{item.img}</p>
+          ))}
+        </ul>
       </li>
     </section>
   );
