@@ -3,8 +3,9 @@
     justify-content:center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 2%;
 }
 
 .about-card {
-    border: 2px solid green;
+    border: 2px solid black;
 }

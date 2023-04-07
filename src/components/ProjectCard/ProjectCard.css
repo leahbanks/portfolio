@@ -2,6 +2,7 @@
   overflow: auto;
   display: flex;
   scroll-snap-type: x mandatory;
+  margin: 5%;
 }
 
 .fog-snapshots {
@@ -9,8 +10,8 @@
   scroll-snap-align: start;
   width: 20vh;
   height: 45vh;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
   margin-bottom: 2%;
   border-radius: 6%;
 }
@@ -20,8 +21,8 @@
   scroll-snap-align: start;
   width: 60vh;
   height: 30vh;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
   margin-bottom: 2%;
   border-radius: 5%;
 }
@@ -37,6 +38,7 @@
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 1%;
 }
 
 .project-card {
@@ -46,5 +48,5 @@
 
 .snapshots-heading {
   text-align: start;
-  margin-left: 1%;
+  margin-left: 5%;
 }
