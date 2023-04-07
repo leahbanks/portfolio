@@ -10,8 +10,8 @@
   scroll-snap-align: start;
   width: 20vh;
   height: 45vh;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
   margin-bottom: 2%;
   border-radius: 6%;
 }
@@ -44,6 +44,7 @@
 .project-card {
   width: 80vh;
   border: 2px solid black;
+  border-radius: 0.5rem;
 }
 
 .snapshots-heading {

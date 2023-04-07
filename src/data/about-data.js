@@ -15,7 +15,7 @@ import {
     {
       heading: "Customer Experience Professional",
       subheading:
-        "10 years experience in various Customer Happiness, Visitor Experience and Managment roles",
+        "10 years experience in various Customer Service, Visitor Experience and Managment roles",
       info: "",
       skills: [],
       icon: <FaUsers />,
