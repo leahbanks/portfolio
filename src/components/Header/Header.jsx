@@ -1,5 +1,10 @@
-import './Header.css'
+import "./Header.css";
 
-export default function Header () {
-    return <h1>Leah Banks</h1>
+export default function Header() {
+  return (
+    <header>
+      <h1>Leah Banks</h1>
+      <h3>Junior Full Stack Developer</h3>
+    </header>
+  );
 }
