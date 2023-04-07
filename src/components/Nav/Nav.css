@@ -1,6 +1,9 @@
 .nav-items {
+  background: #1e5e5a; 
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  padding: 30px;
+  color: #bbe9db;
 }
 

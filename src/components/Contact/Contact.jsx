@@ -8,13 +8,13 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <section>
+    <section id="contact">
        <h2>Contact Me</h2>
       <div className="contact-links">
         <FaLinkedinIn />
         <HiOutlineMail />
       </div>
-      <div id="contact" className="contact-container">
+      <div className="contact-container">
         <h5>Send a Message</h5>
         <form
           onSubmit={(e) => {

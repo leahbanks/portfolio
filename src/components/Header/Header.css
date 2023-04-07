@@ -1,0 +1,18 @@
+.header {
+    background: #1e5e5a; 
+    padding: 60px;
+    padding-bottom: 0px;
+}
+
+.header h1 {
+    color: #f1efe9;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 100px;
+}
+
+.header h4 {
+    font-family: 'Oxygen', sans-serif;
+    color: #beceb0; 
+    padding: 15px;
+    font-size: 20px;
+}

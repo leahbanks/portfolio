@@ -1,0 +1,11 @@
+.projects {
+    padding: 30px;
+    background: #f1efe9;
+}
+
+.projects h2 {
+    color: #1e5e5a;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 60px;
+    padding: 30px;
+}

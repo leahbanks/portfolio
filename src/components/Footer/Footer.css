@@ -1,5 +1,7 @@
 .footer-items {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-  }
+  background: #1e5e5a;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 2%
+}
