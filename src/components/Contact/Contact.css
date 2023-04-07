@@ -15,6 +15,7 @@ textarea {
   border-radius: 0.5rem;
   background-color: transparent;
   resize: none;
+  background-color: rgba(245, 245, 245, 0.92);
 }
 
 .label {

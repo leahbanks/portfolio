@@ -5,6 +5,7 @@
 }
 
 .about-card {
-    border: 2px solid black;
+    border: 2px solid rgb(42, 59, 42);
     border-radius: 0.5rem;
+    background-color: rgba(245, 245, 245, 0.92);
 }
