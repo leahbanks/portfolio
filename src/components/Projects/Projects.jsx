@@ -1,9 +1,6 @@
-import { ncNewsSnapshots, throughFogSnapshots} from "../../data/snapshot-data";
-
 import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
-import { projects } from '../../data/project-data'
-console.log(projects)
+import { projects } from "../../data/project-data";
 
 export default function Projects() {
   return (
