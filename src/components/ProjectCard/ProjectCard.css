@@ -8,16 +8,22 @@
   flex-shrink: 0;
   scroll-snap-align: start;
   width: 20vh;
-  height: fit-content;
-  margin-right: 2%;
+  height: 45vh;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border-radius: 6%;
 }
 
 .news-snapshots {
   flex-shrink: 0;
   scroll-snap-align: start;
   width: 60vh;
-  height: fit-content;
-  margin-right: 2%;
+  height: 30vh;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border-radius: 5%;
 }
 
 .tech {
@@ -36,4 +42,9 @@
 .project-card {
   width: 80vh;
   border: 2px solid black;
+}
+
+.snapshots-heading {
+  text-align: start;
+  margin-left: 1%;
 }

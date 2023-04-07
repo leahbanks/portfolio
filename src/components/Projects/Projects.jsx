@@ -1,17 +1,4 @@
-import firstNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/4.png";
-import secondNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/3.png";
-import thirdNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/2.png";
-import fourthNCNews from "/Users/leah/Desktop/coding/portfolio/src/assets/fe-ncnews/1.png";  
-
-import firstThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/1.png";
-import secondThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/2.png";
-import thirdThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/3.png";
-import fourthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/4.png";
-import fifthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/5.png";
-import sixthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/6.png";
-import seventhThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/7.png";
-import eighthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/8.png";
-import ninthThroughFog from "/Users/leah/Desktop/coding/portfolio/src/assets/through-the-fog/9.png";
+import { ncNewsSnapshots, throughFogSnapshots} from "../../data/snapshot-data";
 
 import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
@@ -27,7 +14,7 @@ export default function Projects() {
       info: "",
       tech: [<DiJsBadge />, <TbBrandReactNative/>, <DiHtml5 />, <DiCss3 />, <SiPassport />, <SiGooglemaps/>],
       code: "https://github.com/leahbanks/FE-through-the-fog",
-      snapshots: [firstThroughFog, secondThroughFog, thirdThroughFog, fourthThroughFog, fifthThroughFog, sixthThroughFog, seventhThroughFog, eighthThroughFog, ninthThroughFog],
+      snapshots: throughFogSnapshots,
       website: "https://user-images.githubusercontent.com/23381975/229468456-36d01223-2820-46d6-86a5-441aef5a1640.mp4"
     },
     {
@@ -35,7 +22,7 @@ export default function Projects() {
       info: "NC News is an interactive web application built using React. It serves as a news aggregation and comments board, allowing users to log in, browse the various articles by topic/popularity and get involved in the discussion. The app uses the NC News API to fetch the stories and allow the user to interact with them via comments and votes.",
       tech: [<DiJsBadge />, <DiReact />, <DiHtml5 />, <DiCss3 />],
       code: "https://github.com/leahbanks/FE_nc_news",
-      snapshots: [firstNCNews, secondNCNews, thirdNCNews, fourthNCNews],
+      snapshots: ncNewsSnapshots,
       website: "https://nc-news-lb.netlify.app/",
     },
     {
@@ -59,6 +46,14 @@ export default function Projects() {
       info: "",
       tech: [<DiJsBadge />, <DiReact />, <DiHtml5 />, <DiCss3 />],
       code: "https://github.com/leahbanks/portfolio",
+      snapshots: [],
+      website: "",
+    },
+    {
+      title: "Calculator",
+      info: "",
+      tech: [<DiJsBadge />, <DiReact />, <DiHtml5 />, <DiCss3 />],
+      code: "https://github.com/leahbanks/calculator",
       snapshots: [],
       website: "",
     },
