@@ -6,6 +6,7 @@ export default function About() {
   return (
     <section className="about">
       <h2>About Me</h2>
+      <h4>Junior Full Stack Developer</h4>
         <button className="resume-btn">
           <a href="CV_LeahBanks.pdf" target="_blank">
             CV
