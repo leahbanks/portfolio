@@ -1,12 +1,8 @@
 import "./Nav.css";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
-
-const githubLink = "https://github.com/leahbanks";
-const linkedInLink = "https://www.linkedin.com/in/leahrbanks/";
 
 const handleClickScroll = () => {
   const element = document.getElementById("contact-section");
@@ -33,17 +29,8 @@ export default function Nav() {
   return (
     <section className="nav">
       <ul className="nav-items">
+        <button onClick={handleAboutClickScroll}>About</button>
         <button onClick={handleProjectClickScroll}>Projects</button>
-        {githubLink && (
-          <a href={githubLink} target="_blank" rel="noreferrer">
-            <FaGithub />
-          </a>
-        )}
-        {linkedInLink && (
-          <a href={linkedInLink} target="_blank" rel="noreferrer">
-            <FaLinkedinIn />
-          </a>
-        )}
         <button onClick={handleClickScroll}>Contact</button>
       </ul>
       <div id="about-section">
@@ -56,8 +43,6 @@ export default function Nav() {
         <Contact />
       </div>
       <Footer
-        githubLink={githubLink}
-        linkedInLink={linkedInLink}
         handleProjectClickScroll={handleProjectClickScroll}
         handleAboutClickScroll={handleAboutClickScroll}
         About={About}

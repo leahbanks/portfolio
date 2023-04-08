@@ -4,9 +4,9 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 export default function Footer({
   handleProjectClickScroll,
   handleAboutClickScroll,
-  githubLink,
-  linkedInLink,
 }) {
+  const githubLink = "https://github.com/leahbanks";
+  const linkedInLink = "https://www.linkedin.com/in/leahrbanks/";
   return (
     <section className="footer">
       <ul className="footer-items">

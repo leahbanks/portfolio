@@ -6,11 +6,7 @@ export default function About() {
   return (
     <section className="about">
       <h2>About</h2>
-      <button className="resume-btn">
-          <a href="CV_LeahBanks.pdf" target="_blank">
-            CV
-          </a>
-        </button>
+          
       <p>Bio here...</p>
       <div className="about-container">
         {aboutCards.map((card) => (

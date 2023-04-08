@@ -1,0 +1,77 @@
+.side-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  gap: 1rem;
+  font-size: 1.25rem;
+
+  /* padding-top: 30px; */
+}
+
+.github {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 2.2rem;
+  padding: 15px;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 2.2rem;
+  padding: 3px;
+}
+
+.cv {
+  display: inline-block;
+  border: 1px solid salmon;
+  padding: 0.5rem 2.5rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-family:'Noto Serif JP', serif;
+}
+
+.cv:hover {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  margin: 0;
+  text-decoration: none;
+  color: #f1efe9;
+  background: salmon;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Noto Serif JP", serif;
+}
+
+.side-nav-cv {
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.github-icon {
+  padding: 0px;
+  padding-bottom: 0px;
+}
+
+.github-icon:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.linkedin-icon {
+  padding: 0px;
+  padding-bottom: 0px;
+}
+
+.linkedin-icon:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
