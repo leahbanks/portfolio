@@ -4,15 +4,13 @@
   align-items: end;
   gap: 1rem;
   font-size: 1.25rem;
-
-  /* padding-top: 30px; */
 }
 
 .github {
   text-decoration: none;
   color: salmon;
   gap: 1.5rem;
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   padding: 15px;
 }
 
@@ -20,14 +18,14 @@
   text-decoration: none;
   color: salmon;
   gap: 1.5rem;
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   padding: 3px;
 }
 
 .cv {
   display: inline-block;
   border: 1px solid salmon;
-  padding: 0.5rem 2.5rem;
+  padding: 0.2rem 1.8rem;
   margin: 0;
   text-decoration: none;
   background: #f1efe9;
@@ -40,7 +38,7 @@
 
 .cv:hover {
   display: inline-block;
-  padding: 0.5rem 2.5rem;
+  padding: 0.2rem 1.8rem;
   margin: 0;
   text-decoration: none;
   color: #f1efe9;
@@ -52,7 +50,7 @@
 }
 
 .side-nav-cv {
-  padding-right: 50px;
+  padding-right: 60px;
   padding-top: 30px;
 }
 
