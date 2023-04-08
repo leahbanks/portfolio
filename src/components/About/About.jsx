@@ -4,9 +4,9 @@ import { aboutCards } from "../../data/about-data";
 
 export default function About() {
   return (
-    <section className="about">
+    <div className="about">
+    <section className="about-text">
       <h2>About</h2>
-          
       <p>Bio here...</p>
       <div className="about-container">
         {aboutCards.map((card) => (
@@ -14,5 +14,6 @@ export default function About() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
