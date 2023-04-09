@@ -33,20 +33,12 @@
   font-size: 1rem;
   cursor: pointer;
   text-align: center;
-  font-family:'Noto Serif JP', serif;
+  font-weight: 300;
 }
 
 .cv:hover {
-  display: inline-block;
-  padding: 0.2rem 1.8rem;
-  margin: 0;
-  text-decoration: none;
   color: #f1efe9;
   background: salmon;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-  font-family: "Noto Serif JP", serif;
 }
 
 .side-nav-cv {
@@ -73,3 +65,29 @@
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
+
+@media screen and (max-width: 1024px){
+
+    .side-nav {
+        gap: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+
+    .side-nav {
+      flex-direction: row-reverse;
+      justify-content: left;
+      gap: 1rem;
+      padding-left: 50px;
+    }
+
+    .cv {
+      padding: 0.3rem 1rem;
+    }
+
+    .cv:hover {
+      padding: 0.3rem 1rem;
+    }
+
+  } 

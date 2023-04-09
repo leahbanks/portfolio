@@ -1,28 +1,24 @@
 .about-container {
-    display: flex;
-    flex-direction: row;
-    margin: 2%;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0rem;
 }
 
 .about-card {
-    border: 2px solid #1e5e5a;
-    border-radius: 0.5rem;
-    background-color: #f1efe9;
-    font-family: 'Oxygen', sans-serif;
+  border: 0.75px solid black;
+  /* padding-top: 40px; */
+  background-color: #f1efe9;
+  font-family: "Oxygen", sans-serif;
+  padding-bottom: 10px;
 }
 
 .about-card h3 {
-    color: #1e5e5a;
-    padding: 10px;
-}
-
-.about-card p {
-    color: #7d916b;
-    margin: 10px;
+  font-family: "Noto Serif JP", serif;
+  padding: 10px;
+  padding-bottom: 0px;
+  color: salmon;
 }
 
 .about-card small {
-    color: #1e5e5a;
-    margin: 10px;
-    padding: 10px;
+  font-family: "Noto Serif JP", serif;
 }

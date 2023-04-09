@@ -10,7 +10,7 @@
 .header {
     padding: 50px;
     padding-bottom: 0px;
-    padding-top: 30px;
+    padding-top: 50px;
     height: 100%;
     position: relative;
 }
@@ -33,9 +33,39 @@
     padding-left: 15px;
     font-size: 20px;
     text-align: left;
-    font-family:'Noto Serif JP', serif;
+    font-weight: 400;
     z-index: -1;
     background-color: salmon;
     color: rgb(37, 33, 33);
 }
 
+@media screen and (max-width: 1024px) and (min-height: 800px) {
+
+  .header{
+      grid-template-columns: 1fr;
+      gap: 0;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+    .header {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+
+    .header {
+        margin: 0rem auto 1rem;
+    }
+
+    .header h1 {
+      font-size: 20vw;
+      padding-bottom: 2rem;
+      padding-top: 0px;
+    }
+
+  } 
+  

@@ -24,3 +24,108 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* @media screen and (max-width: 1024px) and (min-height: 800px) {
+  header{
+      height: 68vh;
+  }
+
+  .header__socials{
+      display: none;
+  }
+
+  .about__container{
+      grid-template-columns: 1fr;
+      gap: 0;
+  }
+
+  .about__me{
+      width: 50%;
+      margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+      margin: 1rem 0  1.5rem;
+  }
+
+  .portfolio__container{
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+  }
+  
+
+  
+}
+
+@media screen and (max-width: 1024px){
+  header{
+      height: 100vh;
+  }
+
+
+  .portfolio__container{
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+  }
+
+  .about__container{
+      grid-template-columns: 1fr;
+      gap: 0;
+  }
+
+  .about__content{
+      text-align: center;
+  }
+
+  .about__me{
+      width: 50%;
+      margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+      margin: 1rem 0  1.5rem;
+  }
+
+  #portfolio{
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header{
+      height: 100vh;
+  }
+
+  .header__socials{
+      display: none;
+  }
+
+  .about__me{
+      width: 65%;
+      margin: 0 auto 3rem;
+  }
+
+  .about__cards{
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+  }
+
+  .about__content{
+      text-align: center;
+  }
+
+  .about__content p {
+      margin: 1.5rem 0;
+  }
+
+  .portfolio__container{
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  }
+
+  #portfolio{
+      height: auto;
+  }
+
+} */

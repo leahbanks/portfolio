@@ -1,12 +1,12 @@
-.about-links {
+/* .about-links {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
 .about {
-    padding: 30px
-    
+    padding: 30px;
+    padding-right: 15px;
 }
 
 .about-text {
@@ -25,4 +25,174 @@
 .about-text p {
   text-align: right;
   padding-right: 30px;
+} */
+
+#about{
+    height: auto;
+    padding: 50px;
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
+
+h2 {
+    color: rgb(48, 44, 44);
+    font-size: 9vw;
+    padding: 30px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.about__container{
+   display: grid;
+   grid-template-columns: 35% 50%;
+   gap: 12%; 
+}
+
+.about__me-image {
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: none;
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.about__card {
+    border: 1px solid transparent;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about__card:hover{
+    border-color: salmon;
+    cursor: default;
+}
+
+.about__icon {
+    color: salmon;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--colour-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2rem;
+}
+
+.about__content a {
+    display: inline-block;
+    border: 1px solid salmon;
+    padding: 0.75rem 1.5rem;
+    margin: 0;
+    text-decoration: none;
+    background: #f1efe9;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.about__content a:hover {
+    color: #f1efe9;
+    background: salmon;
+}
+
+ @media screen and (max-width: 1024px) and (min-height: 800px) {
+
+  .about__container{
+      grid-template-columns: 1fr;
+      gap: 0;
+  }
+
+  .about__me{
+      width: 50%;
+      margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+      margin: 1rem 0  1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+  
+    .about__content{
+        text-align: center;
+    }
+  
+    h2 {
+        padding: 30px;
+        text-align: center;
+    }
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+  
+    .about__content p {
+        padding-right: 20px;
+     }
+  }
+  
+  @media screen and (max-width: 750px) {
+
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+  
+    .about__cards{
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+  
+    .about__content{
+        text-align: center;
+    }
+  
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+
+    h2 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding-left: 25px;
+    }
+
+    .about__content p {
+       padding-right: 20px;
+    }
+  
+  } 
+  
