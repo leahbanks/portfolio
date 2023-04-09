@@ -1,31 +1,3 @@
-/* .about-links {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.about {
-    padding: 30px;
-    padding-right: 15px;
-}
-
-.about-text {
-  padding: 3px;
-  border: 1px solid salmon;
-}
-
-.about-text h2 {
-  color: rgb(48, 44, 44);
-  font-size: 8vw;
-  padding: 30px;
-  padding-bottom: 15px;
-  text-align: right;
-}
-
-.about-text p {
-  text-align: right;
-  padding-right: 30px;
-} */
 
 #about{
     height: auto;

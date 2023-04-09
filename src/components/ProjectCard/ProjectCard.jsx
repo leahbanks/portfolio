@@ -8,16 +8,20 @@ export default function ProjectCard({ project }) {
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
           <div className="project-icons">
+            <div className="githubIcon">
             {code && (
               <a href={code} target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
             )}
+            </div>
+            <div >
             {website && (
-              <a href={website} target="_blank" rel="noreferrer">
+              <a className="linkIcon" href={website} target="_blank" rel="noreferrer">
                 <FaExternalLinkAlt />
               </a>
             )}
+            </div>
           </div>
           <h3>{title}</h3>
         </div>
