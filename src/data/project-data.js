@@ -13,7 +13,7 @@ import { SiPassport, SiGooglemaps } from "react-icons/si";
 export const projects = [
   {
     title: "Through the Fog",
-    info: "",
+    info: "Through the Fog is a mobile app and interactive game built using React Native. The app uses the Google Maps API and geolocational data from your phone to unveil the areas you have visited in real time, allowing you to see which parts of the world you have discovered in detail. With help from the Through the Fog API, a user is able to create an account, store their progress/data, view worldwide scoreboards and post markers to document their travels.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react native logo", img: <TbBrandReactNative /> },
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: "NC News",
-    info: "NC News is an interactive web application built using React. It serves as a news aggregation and comments board, allowing users to log in, browse the various articles by topic/popularity and get involved in the discussion. The app uses the NC News API to fetch the stories and allow the user to interact with them via comments and votes.",
+    info: "NC News is an interactive web application built using React. It serves as a news aggregation and comments board, allowing users to log in, browse the various articles by topic/popularity and get involved in the discussion. The app uses the NC News API to fetch the stories and allow the logged in user to interact with them via comments and votes.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
