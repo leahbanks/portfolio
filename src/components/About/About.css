@@ -88,6 +88,14 @@ h2 {
     background: salmon;
 }
 
+.about-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+
  @media screen and (max-width: 1024px) and (min-height: 800px) {
 
   .about__container{

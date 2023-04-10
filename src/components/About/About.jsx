@@ -58,11 +58,15 @@ const About = () => {
             lorem ipsum dolor sit amet. Diam sollicitudin tempor id eu nisl nunc
             mi. Nibh venenatis cras sed felis.
           </p>
-
-          <a href="#contact" className=" btn btn-primary">
+          <div className="about-buttons">
+          <a className="cv-btn" href="CV_LeahBanks.pdf" target="_blank">
+            CV
+          </a>
+          <a href="#contact" className="contact-btn">
             {" "}
             Contact Me
           </a>
+          </div>
         </div>
       </div>
     </section>
