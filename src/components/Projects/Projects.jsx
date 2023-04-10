@@ -12,6 +12,9 @@ export default function Projects() {
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
+      <div className="see-more">
+      <a className="see-more-btn" href={"https://github.com/leahbanks?tab=repositories"} target="_blank" rel="noreferrer">See More</a>
+      </div>
     </section>
   );
 }

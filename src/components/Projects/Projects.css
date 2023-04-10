@@ -10,6 +10,33 @@
   text-align: left;
 }
 
+.see-more {
+  padding: 30px;
+  padding-top: 60px
+}
+
+
+.see-more-btn {
+  display: inline-block;
+  border: 1px solid salmon;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 300;
+}
+
+.see-more-btn:hover {
+  color: #f1efe9;
+  background: salmon;;
+}
+
+
+
 @media screen and (max-width: 1024px){
 
   .projects {
