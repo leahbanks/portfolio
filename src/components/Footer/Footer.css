@@ -1,9 +1,13 @@
 .footer-items {
   background-color: salmon;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2.5rem;
   flex-direction: row;
-  padding: 5%
+  padding: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .footer-links {
@@ -43,8 +47,8 @@
 
 .btn {
   display: inline-block;
-  border: 1px solid rgb(37, 33, 33);
-  padding: 0.5rem 1rem;
+  border: salmon;
+  padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
   background: #f1efe9;
@@ -57,5 +61,69 @@
 
 .btn:hover {
   color: #f1efe9;
-  background: rgb(37, 33, 33);
+  background: salmon;
+  border: salmon;
 }
+
+@media screen and (max-width: 1024px) and (min-height: 800px) {
+
+  .btn {
+    display: inline-block;
+  border: salmon;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: rgb(37, 33, 33);
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 300;
+  }
+
+}
+
+@media screen and (max-width: 1024px){
+
+  .btn {
+    display: inline-block;
+    border: salmon;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #f1efe9;
+    color: rgb(37, 33, 33);
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  }
+  
+  @media screen and (max-width: 750px) {
+
+
+    .btn {
+      display: flex;
+      border: salmon;
+      padding: 1rem 2rem;
+      margin: 0;
+      text-decoration: none;
+      background: #f1efe9;
+      color: rgb(37, 33, 33);
+      font-size: 1rem;
+      cursor: pointer;
+      text-align: center;
+      font-weight: 300;
+    }
+
+    .footer-items {
+      gap: 0.5rem;
+      padding: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  } 
+  
