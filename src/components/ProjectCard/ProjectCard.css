@@ -139,12 +139,6 @@
     width: 80vh;
   }
 
-  .news-snapshots {
-    width: 36vh;
-    height: 18vh;
-    padding: 0px;
-  }
-
   .snapshots-container {
     height: 25vh;
   }
@@ -162,6 +156,13 @@
 
   .project-info {
     height: 35vh;
+  }
+
+  .news-snapshots {
+    width: 36vh;
+    height: 18vh;
+    padding: 0px;
+    padding-top: 0px;
   }
   
 }
