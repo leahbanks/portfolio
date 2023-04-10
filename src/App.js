@@ -29,10 +29,19 @@ function App() {
     }
   };
 
+  const handleHomeClickScroll = () => {
+    const element = document.getElementById("intro");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="App">
       <CTA />
-      <Header />
+      <div id="intro">
+        <Header />
+      </div>
       <Nav
         handleAboutClickScroll={handleAboutClickScroll}
         handleClickScroll={handleClickScroll}
@@ -50,6 +59,7 @@ function App() {
       <Footer
         handleProjectClickScroll={handleProjectClickScroll}
         handleAboutClickScroll={handleAboutClickScroll}
+        handleHomeClickScroll={handleHomeClickScroll}
       />
     </div>
   );
