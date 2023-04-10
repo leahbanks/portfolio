@@ -28,7 +28,7 @@ const About = () => {
             <article className="about__card">
               <FaProjectDiagram className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ solo and group projects completed</small>
+              <small>10+ solo, paired and group projects completed</small>
             </article>
 
             <article className="about__card">
