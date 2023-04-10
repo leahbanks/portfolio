@@ -3,5 +3,59 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  padding: 2%
+  padding: 5%
+}
+
+.footer-links {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding-right: 50px;
+}
+
+.githubLink {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 1.75rem;
+  padding: 15px;
+}
+
+.linkedInLink {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 1.75rem;
+  padding: 15px;
+}
+
+.githubLink:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.linkedInLink:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid rgb(37, 33, 33);
+  padding: 0.5rem 1rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: rgb(37, 33, 33);
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 300;
+}
+
+.btn:hover {
+  color: #f1efe9;
+  background: rgb(37, 33, 33);
 }
