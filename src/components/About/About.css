@@ -129,6 +129,11 @@ padding: 0px;
   .about__content p {
       margin: 1rem 0  1.5rem;
   }
+
+  #about{
+    height: auto;
+    padding: 5px;
+}
 }
 
 @media screen and (max-width: 1024px){
@@ -185,12 +190,16 @@ padding: 0px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
-        padding-left: 25px;
     }
 
     .about__content p {
        padding-right: 20px;
     }
     
+    #about{
+        height: auto;
+        padding: 5px;
+        padding-bottom: 100px;
+    }
   } 
   

@@ -13,7 +13,7 @@ const About = () => {
           <img
             className="about__me-image"
             src={profilePic}
-            alt="Profile Picture"
+            alt="portrait of Leah"
           />
         </div>
 
