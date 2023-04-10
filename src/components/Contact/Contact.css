@@ -5,9 +5,9 @@
 }
 
 .contact-header {
-text-align: center;
-font-size: 15vh;
-padding-bottom: 15px;
+  text-align: center;
+  font-size: 15vh;
+  padding-bottom: 15px;
 }
 
 form {
@@ -16,7 +16,7 @@ form {
   gap: 1.2rem;
   padding: 20px;
   padding-right: 50px;
-  place-items: center ;
+  place-items: center;
 }
 
 input,
@@ -26,15 +26,13 @@ textarea {
   background-color: transparent;
   resize: none;
   border: 1px solid salmon;
+  font-family: "Courier New", Courier, monospace;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: 1px solid rgb(37, 33, 33);
   border: none;
-}
-
-.label {
-  place-items: left;
 }
 
 .contact-container h5 {
@@ -44,12 +42,12 @@ input:focus, textarea:focus {
   padding-bottom: 0px;
   padding-top: 0px;
   padding-left: 40px;
-  color: rgb(37, 33, 33);;
+  color: rgb(37, 33, 33);
 }
 
 .contact-links {
   color: salmon;
-  font-size: 8vh;
+  font-size: 10vh;
 }
 
 .send-btn {
@@ -71,19 +69,16 @@ input:focus, textarea:focus {
   background: salmon;
 }
 
-@media screen and (max-width: 1024px){
-
+@media screen and (max-width: 1024px) {
   .contact-header {
     text-align: center;
     font-size: 6vh;
-    }
+  }
 }
 
 @media screen and (max-width: 750px) {
-
   .contact-header {
     text-align: center;
     font-size: 6vh;
-    }
-
-} 
+  }
+}

@@ -1,7 +1,7 @@
 .side-nav {
   display: flex;
   flex-direction: row-reverse;
-  align-items: flex-end;
+  align-items: end;
   gap: 1rem;
   font-size: 1.25rem;
 }
