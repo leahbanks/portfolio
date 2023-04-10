@@ -1,18 +1,18 @@
 
 #about{
     height: auto;
-    padding: 50px;
     padding-right: 0px;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 
 h2 {
     color: rgb(48, 44, 44);
     font-size: 9vw;
     padding: 30px;
-    padding-right: 100px;
-    padding-bottom: 15px;
+    padding-right: 60px;
+    padding-bottom: 10px;
     text-align: right;
 }
 
@@ -20,6 +20,10 @@ h2 {
    display: grid;
    grid-template-columns: 35% 50%;
    gap: 12%; 
+}
+
+.about__me {
+padding: 0px;
 }
 
 .about__me-image {
@@ -67,13 +71,26 @@ h2 {
 }
 
 .about__content p {
-    margin: 2rem 0 2rem;
+    margin: 1rem 0 2rem;
 }
 
-.about__content a {
+.cv-btn {
     display: inline-block;
     border: 1px solid salmon;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 4rem;
+    margin: 0;
+    text-decoration: none;
+    background: #f1efe9;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact-btn {
+    display: inline-block;
+    border: 1px solid salmon;
+    padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
     background: #f1efe9;
@@ -94,6 +111,7 @@ h2 {
     justify-content: center;
     padding: 0.5rem;
 }
+
 
 
  @media screen and (max-width: 1024px) and (min-height: 800px) {
@@ -173,6 +191,6 @@ h2 {
     .about__content p {
        padding-right: 20px;
     }
-  
+    
   } 
   
