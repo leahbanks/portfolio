@@ -2,12 +2,11 @@ import "./ProjectCard.css";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
-  const { title, info, tech, code, snapshots, website } = project;
+  const { title, type, info, tech, code, snapshots, website } = project;
   return (
     <section className="project-container">
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
-         
           <div className="project-icons">
             {code && (
               <a className="githubIcon" href={code} target="_blank" rel="noreferrer">
@@ -21,6 +20,7 @@ export default function ProjectCard({ project }) {
             )}
           </div>
           <h3>{title}</h3>
+          <h4 className="project-type">{type}</h4>
         </div>
         <p className="project-info">{info}</p>
         <h4 className="tech-heading">Tech Stack</h4>
