@@ -82,7 +82,7 @@
   display: flex;
   gap: 0.5rem;
   font-size: 1.3rem;
-  justify-content: end;
+  justify-content: flex-end;
   text-decoration: none;
   color: salmon;
   font-size: 1.5rem;
@@ -140,9 +140,9 @@
   }
 
   .news-snapshots {
-    width: 50vh;
-    height: 25vh;
-    padding-top: 0px;
+    width: 36vh;
+    height: 18vh;
+    padding: 0px;
   }
 
   .snapshots-container {
@@ -152,6 +152,16 @@
   .fog-snapshots {
     width: 10vh;
     height: 22.5vh;
+  }
+
+  .tech {
+    gap: 0rem;
+    font-size: 1.2rem;
+    padding: 0rem;
+  }
+
+  .project-info {
+    height: 35vh;
   }
   
 }
@@ -164,7 +174,7 @@
   }
 
   .project-card {
-    width: 60vh;
+    width: 40vh;
   }
 
 }
@@ -180,6 +190,5 @@
   .project-card {
     width: 60vh;
   }
-
   
 }
