@@ -1,5 +1,4 @@
 import "./Contact.css";
-import { FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 export default function Contact() {
@@ -9,9 +8,8 @@ export default function Contact() {
   };
   return (
     <section id="contact">
-       <h2>Contact Me</h2>
+      <h2 className="contact-header">Get in Touch</h2>
       <div className="contact-links">
-        <FaLinkedinIn />
         <HiOutlineMail />
       </div>
       <div className="contact-container">
@@ -21,23 +19,20 @@ export default function Contact() {
             sendMessage(e);
           }}
         >
-          <label htmlFor="name" className="label">Name</label>
           <input type="text" name="name" placeholder="Your name" required />
-          <label htmlFor="email" className="label">Email</label>
           <input
             type="email"
             name="email"
             placeholder="Your email address"
             required
           />
-          <label htmlFor="message" className="label">Message</label>
           <textarea
             name="message"
-            rows="8"
+            rows="10"
             placeholder="Your message for me..."
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="send-btn">
             Send Message
           </button>
         </form>

@@ -1,23 +1,89 @@
 #contact {
   margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contact-header {
+text-align: center;
+font-size: 15vh;
+padding-bottom: 15px;
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  padding: 20px;
+  padding-right: 50px;
+  place-items: center ;
 }
 
 input,
 textarea {
-  width: 100%;
+  width: 80%;
   padding: 1.5rem;
-  border-radius: 0.5rem;
   background-color: transparent;
   resize: none;
-  background-color: rgba(245, 245, 245, 0.92);
+  border: 1px solid salmon;
+}
+
+input:focus, textarea:focus {
+  outline: 1px solid rgb(37, 33, 33);
+  border: none;
 }
 
 .label {
-  text-align: left;
+  place-items: left;
 }
+
+.contact-container h5 {
+  font-size: 3vh;
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 40px;
+  color: rgb(37, 33, 33);;
+}
+
+.contact-links {
+  color: salmon;
+  font-size: 8vh;
+}
+
+.send-btn {
+  display: inline-block;
+  border: 1px solid salmon;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 300;
+}
+
+.send-btn:hover {
+  color: #f1efe9;
+  background: salmon;
+}
+
+@media screen and (max-width: 1024px){
+
+  .contact-header {
+    text-align: center;
+    font-size: 6vh;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+  .contact-header {
+    text-align: center;
+    font-size: 6vh;
+    }
+
+} 
