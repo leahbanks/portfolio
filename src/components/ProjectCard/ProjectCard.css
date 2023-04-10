@@ -3,6 +3,8 @@
   display: flex;
   scroll-snap-type: x mandatory;
   margin: 5%;
+  height: 45vh;
+  gap: 1rem;
 }
 
 .fog-snapshots {
@@ -14,55 +16,169 @@
   margin-left: 2%;
   margin-bottom: 2%;
   border-radius: 6%;
+  border: 1px solid black;
 }
 
 .news-snapshots {
   flex-shrink: 0;
   scroll-snap-align: start;
-  width: 60vh;
-  height: 30vh;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-bottom: 2%;
-  border-radius: 5%;
+  width: 70vh;
+  height: 35vh;
+  padding: 10px;
+  padding-top: 20px
 }
 
 .tech {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row;
+  height: 10vh;
+  color: salmon;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding-left: 0rem;
+  padding: 1rem;
+}
+
+.tech-heading {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgb(48, 44, 44);
+  font-size: 3vh;
 }
 
 .project-container {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
 }
 
 .project-card {
   width: 80vh;
   border: 1px solid salmon;
+  background-color: #f1efe9;
+  padding: 20px;
 }
-/* 
+
+.project-info {
+  height: 18vh;
+}
+
 .project-card:hover {
- box-shadow: 2px salmon;
-} */
+  box-shadow:
+    salmon 0px -2px 6px 0px inset;
+}
 
 .snapshots-heading {
-  text-align: start;
-  margin-left: 5%;
-  color: salmon;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: rgb(48, 44, 44);
+  font-size: 3vh;
 }
 
 .project-icons {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   font-size: 1.3rem;
   justify-content: end;
   text-decoration: none;
   color: salmon;
   font-size: 1.5rem;
   padding: 12px;
+}
+
+.linkIcon {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+
+.linkIcon:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.githubIcon:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.githubIcon {
+  text-decoration: none;
+  color: salmon;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+
+.project-container p {
+  padding: 20px;
+  text-align: left;
+}
+
+.project-container h3 {
+  color: rgb(37, 33, 33);
+  font-size: 5vh;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+
+  .project-card {
+    width: 80vh;
+  }
+
+  .news-snapshots {
+    width: 50vh;
+    height: 25vh;
+  }
+
+  .snapshots-container {
+    height: 25vh;
+  }
+
+  .fog-snapshots {
+    width: 10vh;
+    height: 22.5vh;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+
+  .project-card {
+    width: 60vh;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-height: 800px) {
+
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0rem;
+    place-items: center;
+  }
+
+  .project-card {
+    width: 60vh;
+  }
+
+  
 }

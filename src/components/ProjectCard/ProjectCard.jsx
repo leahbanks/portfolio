@@ -7,30 +7,32 @@ export default function ProjectCard({ project }) {
     <section className="project-container">
       <li className="project-card" style={{ listStyle: "none" }}>
         <div>
+         
           <div className="project-icons">
-            <div className="githubIcon">
             {code && (
-              <a href={code} target="_blank" rel="noreferrer">
+              <a className="githubIcon" href={code} target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
             )}
-            </div>
-            <div >
             {website && (
               <a className="linkIcon" href={website} target="_blank" rel="noreferrer">
                 <FaExternalLinkAlt />
               </a>
             )}
-            </div>
           </div>
           <h3>{title}</h3>
         </div>
-        <header></header>
-        <p>{info}</p>
+        <p className="project-info">{info}</p>
+        <h4 className="tech-heading">Tech Stack</h4>
+        <ul className="tech" style={{ listStyle: "none" }}>
+          {tech.map((item) => (
+            <p key={item.name}>{item.img}</p>
+          ))}
+        </ul>
         {snapshots.length > 0 ? (
+          <div>
           <h4 className="snapshots-heading">Snapshots ➔</h4>
-        ) : null}
-        <div className="snapshots-container">
+          <div className="snapshots-container">
           {snapshots.map((snapshot) => (
             <img
               className={
@@ -41,12 +43,10 @@ export default function ProjectCard({ project }) {
               key={snapshot.name}
             />
           ))}
-        </div>{" "}
-        <ul className="tech" style={{ listStyle: "none" }}>
-          {tech.map((item) => (
-            <p key={item.name}>{item.img}</p>
-          ))}
-        </ul>
+        </div>
+        </div>
+        ) : null}
+     {" "}
       </li>
     </section>
   );

@@ -5,6 +5,33 @@
 .projects h2 {
   color: rgb(48, 44, 44);
   font-size: 8vw;
-  padding-left: 60px;
+  padding-left: 0px;
+  padding-bottom: 40px;
   text-align: left;
 }
+
+@media screen and (max-width: 1024px){
+
+  .projects {
+    padding: 0px;
+  }
+  
+  .projects h2 {
+    text-align: center;
+  }
+
+}
+  
+  @media screen and (max-width: 750px) {
+
+    .projects {
+      padding: 0px;
+    }
+    
+    .projects h2 {
+      padding: 0px;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+
+  } 
