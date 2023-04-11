@@ -1,19 +1,27 @@
 export const ncNewsSnapshots = [
   {
     name: "firstNCNews",
-    img: "assets/fe-ncnews/4.png",
+    img: "assets/fe-ncnews/1.png",
   },
   {
     name: "secondNCNews",
-    img: "assets/fe-ncnews/3.png",
-  },
-  {
-    name: "thirdNCNews",
     img: "assets/fe-ncnews/2.png",
   },
   {
+    name: "thirdNCNews",
+    img: "assets/fe-ncnews/3.png",
+  },
+  {
     name: "fourthNCNews",
-    img: "assets/fe-ncnews/1.png",
+    img: "assets/fe-ncnews/4.png",
+  },
+  {
+    name: "fourthNCNews",
+    img: "assets/fe-ncnews/5.png",
+  },
+  {
+    name: "fourthNCNews",
+    img: "assets/fe-ncnews/6.png",
   },
 ];
 

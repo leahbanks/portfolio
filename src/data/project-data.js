@@ -93,7 +93,7 @@ export const projects = [
   {
     title: "Calculator",
     type: "Solo Project",
-    info: "A mini calculator project built in React that is able to perform simple calculations. This is an example of many mini React/React Native apps that I plan to create in order to practice and refine my use of HTML, CSS, React Hooks and soon - Typescript.",
+    info: "A mini calculator project built in React that is able to perform simple calculations. This is an example of many mini React/React Native apps that I plan to create in order to practice and refine my use of HTML, CSS, React Hooks and soon - Typescript and SASS.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
