@@ -106,9 +106,6 @@ const About = () => {
               <DiNpm />
             </li>
             <li>
-              <DiSass />
-            </li>
-            <li>
               <DiGit />
             </li>
             <li>
