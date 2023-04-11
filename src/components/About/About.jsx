@@ -1,8 +1,31 @@
 import "./About.css";
 import "../../App.css";
 
-import { FaUserGraduate, FaLaptopCode, FaUsers, FaProjectDiagram } from "react-icons/fa";
+import {
+  FaUserGraduate,
+  FaLaptopCode,
+  FaUsers,
+  FaProjectDiagram,
+} from "react-icons/fa";
+
+import {
+  DiJsBadge,
+  DiReact,
+  DiPostgresql,
+  DiHtml5,
+  DiCss3,
+  DiAtlassian,
+  DiGit,
+  DiNodejs,
+  DiTrello,
+  DiSass,
+  DiJira,
+  DiExtjs,
+  DiNpm,
+} from "react-icons/di";
 import profilePic from "../../profile-pic.jpg";
+
+import { SiConfluence, SiExpress } from "react-icons/si";
 
 const About = () => {
   return (
@@ -42,30 +65,73 @@ const About = () => {
               <h5>Customer Happiness</h5>
               <small>10 years experience</small>
             </article>
-
-            
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices
-            gravida dictum fusce ut placerat orci nulla pellentesque. Enim ut
-            sem viverra aliquet eget sit. Massa tincidunt nunc pulvinar sapien
-            et. Nisi scelerisque eu ultrices vitae auctor eu. Et sollicitudin ac
-            orci phasellus egestas tellus. Et netus et malesuada fames ac
-            turpis. Mauris a diam maecenas sed enim ut. Amet mattis vulputate
-            enim nulla aliquet porttitor lacus. Eget velit aliquet sagittis id
-            consectetur purus ut faucibus. Suspendisse faucibus interdum posuere
-            lorem ipsum dolor sit amet. Diam sollicitudin tempor id eu nisl nunc
-            mi. Nibh venenatis cras sed felis.
+            I am a Full Stack Developer who has recently graduated from
+            Northcoders - an industry-leading coding bootcamp. With a background
+            in Customer Happiness and People Management, I have a unique blend
+            of experience in both tech and customer service that allows me to
+            communicate effectively, approach development projects from
+            different perspectives and apply innovative solutions with the user
+            always in mind. During my 13 weeks at Northcoders, I completed a
+            range of group, solo and paired projects, following Agile
+            methodlogies to facilitate efficiency and collaboration. As a
+            graduate of Fine Art Mixed Media, I am excited to bring my creative
+            passion to a team and create aesthetically-pleasing apps for users
+            to enjoy.
           </p>
+          <ul className="skills">
+            <li>
+              <DiJsBadge />
+            </li>
+            <li>
+              <DiReact />
+            </li>
+            <li>
+              <DiPostgresql />
+            </li>
+            <li>
+              <SiExpress />
+            </li>
+            <li>
+              <DiCss3 />
+            </li>
+            <li>
+              <DiHtml5 />
+            </li>
+            <li>
+              <DiNodejs />
+            </li>
+            <li>
+              <DiNpm />
+            </li>
+            <li>
+              <DiSass />
+            </li>
+            <li>
+              <DiGit />
+            </li>
+            <li>
+              <DiAtlassian />
+            </li>
+            <li className="confluence">
+              <SiConfluence />
+            </li>
+            <li>
+              <DiJira />
+            </li>
+            <li>
+              <DiTrello />
+            </li>
+          </ul>
           <div className="about-buttons">
-          <a className="cv-btn" href="CV_LeahBanks.pdf" target="_blank">
-            CV
-          </a>
-          <a href="#contact" className="contact-btn">
-            {" "}
-            Contact Me
-          </a>
+            <a className="cv-btn" href="CV_LeahBanks.pdf" target="_blank">
+              CV
+            </a>
+            <a href="#contact" className="contact-btn">
+              {" "}
+              Contact Me
+            </a>
           </div>
         </div>
       </div>
