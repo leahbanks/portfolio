@@ -18,50 +18,48 @@ import {
   DiGit,
   DiNodejs,
   DiTrello,
-  DiSass,
   DiJira,
-  DiExtjs,
   DiNpm,
 } from "react-icons/di";
 import profilePic from "../../profile-pic.jpg";
 
 import { SiConfluence, SiExpress } from "react-icons/si";
 
-const About = () => {
+export default function About () {
   return (
     <section id="about">
       <h2>About</h2>
-      <div className="container about__container">
-        <div className="about__me">
+      <div className="container about-container">
+        <div className="about-info">
           <img
-            className="about__me-image"
+            className="about-info-image"
             src={profilePic}
             alt="portrait of Leah"
           />
         </div>
 
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaLaptopCode className="about__icon" />
+        <div className="about-content">
+          <div className="about-cards">
+            <article className="about-card">
+              <FaLaptopCode className="about-icon" />
               <h5>Northcoders Graduate</h5>
               <small>480 contact hours</small>
             </article>
 
-            <article className="about__card">
-              <FaProjectDiagram className="about__icon" />
+            <article className="about-card">
+              <FaProjectDiagram className="about-icon" />
               <h5>Projects</h5>
               <small>10+ solo, paired and group projects completed</small>
             </article>
 
-            <article className="about__card">
-              <FaUserGraduate className="about__icon" />
+            <article className="about-card">
+              <FaUserGraduate className="about-icon" />
               <h5>Bachelor of Arts</h5>
               <small>First Class Honours</small>
             </article>
 
-            <article className="about__card">
-              <FaUsers className="about__icon" />
+            <article className="about-card">
+              <FaUsers className="about-icon" />
               <h5>Customer Happiness</h5>
               <small>10 years experience</small>
             </article>
@@ -69,7 +67,7 @@ const About = () => {
           <p>
             I am a Full Stack Developer who has recently graduated from
             Northcoders - an industry-leading coding bootcamp. With a background
-            in Customer Happiness and People Management, I have a unique blend
+            in Customer Happiness and People Management, I have a combination
             of experience in both tech and customer service that allows me to
             communicate effectively, approach development projects from
             different perspectives and apply innovative solutions with the user
@@ -135,23 +133,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;
-// import AboutCard from "../AboutCard/AboutCard";
-// import { aboutCards } from "../../data/about-data";
-
-// export default function About() {
-//   return (
-//     <div className="about">
-//     <section className="about-text">
-//       <h2>About</h2>
-//       <p>Bio here...</p>
-//       <div className="about-container">
-//         {aboutCards.map((card) => (
-//           <AboutCard key={card.heading} card={card} />
-//         ))}
-//       </div>
-//     </section>
-//     </div>
-//   );
-// }

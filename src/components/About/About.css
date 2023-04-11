@@ -16,24 +16,24 @@ h2 {
     text-align: right;
 }
 
-.about__container{
+.about-container{
    display: grid;
    grid-template-columns: 35% 50%;
    gap: 12%; 
 }
 
-.about__me {
+.about-info{
 padding: 0px;
 }
 
-.about__me-image {
+.about-info-image {
     width: 80%;
     border-radius: 50%;
     overflow: hidden;
     background: none;
 }
 
-.about__cards {
+.about-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0rem;
@@ -41,7 +41,7 @@ padding: 0px;
     padding-right: 0px;
 }
 
-.about__card {
+.about-card {
     border: 1px solid transparent;
     width: 110px;
     height: 110px;
@@ -55,7 +55,7 @@ padding: 0px;
     cursor: default;
 }
 
-.about__icon {
+.about-icon {
     color: salmon;
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -70,7 +70,7 @@ padding: 0px;
     color: var(--colour-light);
 }
 
-.about__content p {
+.about-content p {
     margin: 1rem 0 2rem;
 }
 
