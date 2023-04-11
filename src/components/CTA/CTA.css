@@ -1,7 +1,7 @@
 .side-nav {
   display: flex;
   flex-direction: row-reverse;
-  align-items: end;
+  align-items: flex-end;
   gap: 1rem;
   font-size: 1.25rem;
 }
@@ -66,28 +66,25 @@
   transform: translateY(-5px);
 }
 
-@media screen and (max-width: 1024px){
-
-    .side-nav {
-        gap: 1rem;
-    }
+@media screen and (max-width: 1024px) {
+  .side-nav {
+    gap: 1rem;
   }
-  
-  @media screen and (max-width: 750px) {
+}
 
-    .side-nav {
-      flex-direction: row-reverse;
-      justify-content: left;
-      gap: 1rem;
-      padding-left: 50px;
-    }
+@media screen and (max-width: 750px) {
+  .side-nav {
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 1rem;
+    padding-left: 50px;
+  }
 
-    .cv {
-      padding: 0.3rem 1rem;
-    }
+  .cv {
+    padding: 0.3rem 1rem;
+  }
 
-    .cv:hover {
-      padding: 0.3rem 1rem;
-    }
-
-  } 
+  .cv:hover {
+    padding: 0.3rem 1rem;
+  }
+}

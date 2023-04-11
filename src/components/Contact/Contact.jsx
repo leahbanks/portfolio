@@ -1,33 +1,30 @@
 import "./Contact.css";
 import { HiOutlineMail } from "react-icons/hi";
-import React, { useRef, useState } from "react";
+import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-
-  const [sentMessage, setSentMessage] = useState(false)
 
   const form = useRef();
 
   const sendMessage = (e) => {
     e.preventDefault();
 
-  emailjs
-    .sendForm(
-      "service_gm3zago",
-      "template_m4chck7",
-      form.current,
-      "isjGyWVrRuc2VgGY_"
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-        setSentMessage(true)
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_gm3zago",
+        "template_m4chck7",
+        form.current,
+        "isjGyWVrRuc2VgGY_"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
 
     e.target.reset();
   };
@@ -40,7 +37,8 @@ export default function Contact() {
       </div>
       <div className="contact-container">
         <h5>Send a Message</h5>
-        <form ref={form}
+        <form
+          ref={form}
           onSubmit={(e) => {
             sendMessage(e);
           }}
@@ -59,7 +57,7 @@ export default function Contact() {
             required
           ></textarea>
           <button type="submit" className="send-btn">
-          Send Message
+            Send Message
           </button>
         </form>
       </div>

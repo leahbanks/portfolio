@@ -1,70 +1,65 @@
 @keyframes fadeInAnimation {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 
 .header {
-    padding: 50px;
-    padding-bottom: 0px;
-    padding-top: 50px;
-    height: 100%;
-    position: relative;
+  padding: 50px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  height: 100%;
+  position: relative;
 }
 
 .header h1 {
-    animation: fadeInAnimation ease-in 1s;
-    display: block;
-    font-weight: 800;
-    font-stretch: condensed;
-    line-height: 1;
-    font-size: 15vw;
-    text-align: left;
-    color: rgb(37, 33, 33);
-    padding-bottom: 10px;
+  animation: fadeInAnimation ease-in 1s;
+  display: block;
+  font-weight: 800;
+  font-stretch: condensed;
+  line-height: 1;
+  font-size: 15vw;
+  text-align: left;
+  color: rgb(37, 33, 33);
+  padding-bottom: 10px;
 }
 
-.header h4 { 
-    padding: 5px;
-    padding-left: 15px;
-    font-size: 20px;
-    text-align: left;
-    font-weight: 400;
-    z-index: -1;
-    background-color: salmon;
-    color: rgb(37, 33, 33);
+.header h4 {
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  z-index: -1;
+  background-color: salmon;
+  color: rgb(37, 33, 33);
 }
 
 @media screen and (max-width: 1024px) and (min-height: 800px) {
-
-  .header{
-      grid-template-columns: 1fr;
-      gap: 0;
+  .header {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 }
 
-@media screen and (max-width: 1024px){
-
-    .header {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+@media screen and (max-width: 1024px) {
+  .header {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
-  
-  @media screen and (max-width: 750px) {
+}
 
-    .header {
-        margin: 0rem auto 1rem;
-    }
+@media screen and (max-width: 750px) {
+  .header {
+    margin: 0rem auto 1rem;
+  }
 
-    .header h1 {
-      font-size: 20vw;
-      padding-bottom: 2rem;
-      padding-top: 0px;
-    }
-
-  } 
-  
+  .header h1 {
+    font-size: 20vw;
+    padding-bottom: 2rem;
+    padding-top: 0px;
+  }
+}

@@ -9,12 +9,22 @@ export default function ProjectCard({ project }) {
         <div>
           <div className="project-icons">
             {code && (
-              <a className="githubIcon" href={code} target="_blank" rel="noreferrer">
+              <a
+                className="githubIcon"
+                href={code}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
               </a>
             )}
             {website && (
-              <a className="linkIcon" href={website} target="_blank" rel="noreferrer">
+              <a
+                className="linkIcon"
+                href={website}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaExternalLinkAlt />
               </a>
             )}
@@ -31,22 +41,21 @@ export default function ProjectCard({ project }) {
         </ul>
         {snapshots.length > 1 ? (
           <div>
-          <h4 className="snapshots-heading">Snapshots ➔</h4>
-          <div className="snapshots-container">
-          {snapshots.map((snapshot) => (
-            <img
-              className={
-                title === "NC News" ? "news-snapshots" : "fog-snapshots"
-              }
-              src={snapshot.img}
-              alt={`snapshot of ${title}`}
-              key={snapshot.name}
-            />
-          ))}
-        </div>
-        </div>
-        ) : null}
-     {" "}
+            <h4 className="snapshots-heading">Snapshots ➔</h4>
+            <div className="snapshots-container">
+              {snapshots.map((snapshot) => (
+                <img
+                  className={
+                    title === "NC News" ? "news-snapshots" : "fog-snapshots"
+                  }
+                  src={snapshot.img}
+                  alt={`snapshot of ${title}`}
+                  key={snapshot.name}
+                />
+              ))}
+            </div>
+          </div>
+        ) : null}{" "}
       </li>
     </section>
   );

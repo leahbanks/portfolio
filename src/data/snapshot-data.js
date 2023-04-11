@@ -65,7 +65,5 @@ export const throughFogSnapshots = [
 ];
 
 export const calculatorSnapshots = [
-  { name: "firstCalc",
-    img: "assets/calculator/1.png"
-}
-]
+  { name: "firstCalc", img: "assets/calculator/1.png" },
+];

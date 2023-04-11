@@ -13,7 +13,14 @@ export default function Projects() {
         ))}
       </div>
       <div className="see-more">
-      <a className="see-more-btn" href={"https://github.com/leahbanks?tab=repositories"} target="_blank" rel="noreferrer">See More</a>
+        <a
+          className="see-more-btn"
+          href={"https://github.com/leahbanks?tab=repositories"}
+          target="_blank"
+          rel="noreferrer"
+        >
+          See More
+        </a>
       </div>
     </section>
   );

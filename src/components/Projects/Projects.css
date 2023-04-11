@@ -12,9 +12,8 @@
 
 .see-more {
   padding: 30px;
-  padding-top: 60px
+  padding-top: 60px;
 }
-
 
 .see-more-btn {
   display: inline-block;
@@ -32,33 +31,27 @@
 
 .see-more-btn:hover {
   color: #f1efe9;
-  background: salmon;;
+  background: salmon;
 }
 
-
-
-@media screen and (max-width: 1024px){
-
+@media screen and (max-width: 1024px) {
   .projects {
     padding: 0px;
   }
-  
+
   .projects h2 {
     text-align: center;
   }
-
 }
-  
-  @media screen and (max-width: 750px) {
 
-    .projects {
-      padding: 0px;
-    }
-    
-    .projects h2 {
-      padding: 0px;
-      padding-bottom: 40px;
-      text-align: center;
-    }
+@media screen and (max-width: 750px) {
+  .projects {
+    padding: 0px;
+  }
 
-  } 
+  .projects h2 {
+    padding: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}

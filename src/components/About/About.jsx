@@ -25,7 +25,7 @@ import profilePic from "../../profile-pic.jpg";
 
 import { SiConfluence, SiExpress } from "react-icons/si";
 
-export default function About () {
+export default function About() {
   return (
     <section id="about">
       <h2>About</h2>
@@ -67,8 +67,8 @@ export default function About () {
           <p>
             I am a Full Stack Developer who has recently graduated from
             Northcoders - an industry-leading coding bootcamp. With a background
-            in Customer Happiness and People Management, I have a combination
-            of experience in both tech and customer service that allows me to
+            in Customer Happiness and People Management, I have a combination of
+            experience in both tech and customer service that allows me to
             communicate effectively, approach development projects from
             different perspectives and apply innovative solutions with the user
             always in mind. During my 13 weeks at Northcoders, I completed a
@@ -132,4 +132,4 @@ export default function About () {
       </div>
     </section>
   );
-};
+}
