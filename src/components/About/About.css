@@ -1,7 +1,7 @@
 #about {
   height: auto;
   padding-right: 0px;
-  padding-left: 30px;
+  padding-left: 0px;
   padding-top: 0px;
   padding-bottom: 50px;
 }
@@ -25,7 +25,7 @@ h2 {
   padding: 0px;
 }
 
-.about-info-addimage {
+.about-info img {
   width: 80%;
   border-radius: 50%;
   overflow: hidden;
@@ -49,7 +49,7 @@ h2 {
   text-align: center;
 }
 
-.about__card:hover {
+.about-card:hover {
   border-color: salmon;
   cursor: default;
 }
@@ -127,17 +127,17 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) and (min-height: 800px) {
-  .about__container {
+  .about-container {
     grid-template-columns: 1fr;
     gap: 0;
   }
 
-  .about__me {
+  .about-info {
     width: 50%;
     margin: 2rem auto 4rem;
   }
 
-  .about__content p {
+  .about-content p {
     margin: 1rem 0 1.5rem;
   }
 
@@ -148,12 +148,12 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
-  .about__container {
+  .about-container {
     grid-template-columns: 1fr;
     gap: 0;
   }
 
-  .about__content {
+  .about-content {
     text-align: center;
   }
 
@@ -161,32 +161,32 @@ h2 {
     padding: 30px;
     text-align: center;
   }
-  .about__me {
+  .about-info {
     width: 50%;
     margin: 2rem auto 4rem;
   }
 
-  .about__content p {
+  .about-content p {
     padding-right: 20px;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .about__me {
+  .about-me {
     width: 65%;
     margin: 0 auto 3rem;
   }
 
-  .about__cards {
+  .about-cards {
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
   }
 
-  .about__content {
+  .about-content {
     text-align: center;
   }
 
-  .about__content p {
+  .about-content p {
     margin: 1.5rem 0;
   }
 
@@ -195,13 +195,13 @@ h2 {
     text-align: center;
   }
 
-  .about__cards {
+  .about-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
 
-  .about__content p {
+  .about-content p {
     padding-right: 20px;
   }
 

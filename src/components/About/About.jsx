@@ -32,7 +32,6 @@ export default function About() {
       <div className="container about-container">
         <div className="about-info">
           <img
-            className="about-info-image"
             src={profilePic}
             alt="portrait of Leah"
           />

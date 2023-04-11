@@ -107,7 +107,7 @@ export const projects = [
   {
     title: "NC Marketplace",
     type: "Paired Project",
-    info: "",
+    info: "NC Marketplace is an online buying and selling site that I developed during a paired sprint at Northcoders. The site allows users to browse items, create an account, add items to their basket and upload and delete any items they have posted for sale. I am currently in the process of refining the styling and creating a copy of the private repo - to be uploaded soon! ",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
@@ -121,7 +121,7 @@ export const projects = [
   {
     title: "Virtual Bookshelf",
     type: "Solo Project",
-    info: "",
+    info: "Virtual Bookshelf is an online bookstore I developed using the Google Books API during a solo sprint at Northcoders. The bookstore allows users to search for books by name or author, find out more information and add them to their reading list. I am currently in the process of refining the styling and creating a copy of the private repo - to be uploaded soon!",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
