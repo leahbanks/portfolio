@@ -62,7 +62,7 @@
 }
 
 .project-info {
-  height: 18vh;
+  height: 20vh;
 }
 
 .project-card:hover {
@@ -135,6 +135,16 @@
   text-align: left;
   padding-left: 20px;
   padding-bottom: 10px;
+}
+
+.calc-snapshot {
+  width: 30vh;
+  height: 45vh;
+  /* margin-right: 2%;
+
+  margin-bottom: 2%; */
+  border-radius: 2%;
+  
 }
 
 @media screen and (max-width: 1024px) {

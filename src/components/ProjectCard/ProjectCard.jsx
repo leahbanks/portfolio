@@ -29,7 +29,7 @@ export default function ProjectCard({ project }) {
             <p key={item.name}>{item.img}</p>
           ))}
         </ul>
-        {snapshots.length > 0 ? (
+        {snapshots.length > 1 ? (
           <div>
           <h4 className="snapshots-heading">Snapshots ➔</h4>
           <div className="snapshots-container">

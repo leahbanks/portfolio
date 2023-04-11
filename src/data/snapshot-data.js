@@ -55,3 +55,9 @@ export const throughFogSnapshots = [
     img: "assets/through-the-fog/9.png",
   },
 ];
+
+export const calculatorSnapshots = [
+  { name: "firstCalc",
+    img: "assets/calculator/1.png"
+}
+]

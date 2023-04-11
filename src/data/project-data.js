@@ -1,4 +1,8 @@
-import { ncNewsSnapshots, throughFogSnapshots } from "./snapshot-data";
+import {
+  calculatorSnapshots,
+  ncNewsSnapshots,
+  throughFogSnapshots,
+} from "./snapshot-data";
 
 import {
   DiJsBadge,
@@ -6,21 +10,21 @@ import {
   DiPostgresql,
   DiHtml5,
   DiCss3,
+  DiNodejs,
 } from "react-icons/di";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiPassport, SiGooglemaps } from "react-icons/si";
+import { SiPassport, SiGooglemaps, SiExpress } from "react-icons/si";
 
 export const projects = [
   {
     title: "Through the Fog",
     type: "Group Project",
-    info: "Through the Fog is a mobile app and interactive game built using React Native. The app uses the Google Maps API and geolocational data from your phone to unveil the areas you have visited in real time, allowing you to see which parts of the world you have discovered in detail. With help from the Through the Fog API, a user is able to create an account, store their progress/data, view scoreboards and post photo markers to document their travels.",
+    info: "Through the Fog is a mobile app and interactive game built using React Native. The app uses the Google Maps API and geolocational data from your phone to unveil the areas you have visited in real time, allowing you to see which parts of the world you have discovered in detail. With help from the Through the Fog API, a user is able to create an account, store their progress/data, view scoreboards and post photo markers to document their travels. A demo and presentation of the app can be viewed by clicking the link in the top right corner of this card.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react native logo", img: <TbBrandReactNative /> },
       { name: "html-logo", img: <DiHtml5 /> },
       { name: "css logo", img: <DiCss3 /> },
-      { name: "passport.js logo", img: <SiPassport /> },
       { name: "google maps API logo", img: <SiGooglemaps /> },
     ],
     code: "https://github.com/leahbanks/FE-through-the-fog",
@@ -45,10 +49,14 @@ export const projects = [
   {
     title: "Through the Fog API",
     type: "Group Project",
-    info: "",
+    info: "Through the Fog API was built to serve as a back end to our React Native app. We used a framework we were familiar with (JS, Node, Express) in addition to new technologies that we taught ourselves along the way (Google Auth and Bcrypt) to ensure the security of user data. The endpoints can be viewed on Swagger Docs via the link in the top right corner of this card.",
     tech: [
       { name: "javascript logo,", img: <DiJsBadge /> },
-      { name: "posgresql logo", img: <DiPostgresql /> },
+      { name: "postgresql logo", img: <DiPostgresql /> },
+      { name: "passport.js logo", img: <SiPassport /> },
+      { name: "google maps API logo", img: <SiGooglemaps /> },
+      { name: "express.js logo", img: <SiExpress /> },
+      { name: "node.js logo", img: <DiNodejs /> },
     ],
     code: "https://github.com/leahbanks/BE-through-the-fog",
     snapshots: [],
@@ -60,8 +68,9 @@ export const projects = [
     info: "NC News API is a RESTful API built using Javascript, Node.js, PostgreSQL and Express.js. It has been designed to provide the functionality behind and interactive web application, which will serve as a Reddit-style news aggregation and comments board.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
-      { name: "posgresql logo", img: <DiPostgresql /> },
-      { name: "express.js", img: "" },
+      { name: "postgresql logo", img: <DiPostgresql /> },
+      { name: "express.js logo", img: <SiExpress /> },
+      { name: "node.js logo", img: <DiNodejs /> },
     ],
     code: "https://github.com/leahbanks/BE_nc_news",
     snapshots: [],
@@ -84,7 +93,7 @@ export const projects = [
   {
     title: "Calculator",
     type: "Solo Project",
-    info: "",
+    info: "A mini calculator project built in React that is able to perform simple calculations. This is an example of many mini React/React Native apps that I plan to create in order to practice and refine my use of HTML, CSS, React Hooks and soon - Typescript.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
@@ -92,7 +101,7 @@ export const projects = [
       { name: "css logo", img: <DiCss3 /> },
     ],
     code: "https://github.com/leahbanks/calculator",
-    snapshots: [],
+    snapshots: calculatorSnapshots,
     website: "",
   },
   {
