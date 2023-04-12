@@ -119,7 +119,7 @@ export default function About() {
             </li>
           </ul>
           <div className="about-buttons">
-            <a className="cv-btn" href="LeahBanks_CV.pdf" target="_blank">
+            <a className="cv-btn" href="CV-LB.pdf" target="_blank">
               CV
             </a>
             <a href="#contact" className="contact-btn">
