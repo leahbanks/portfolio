@@ -31,10 +31,7 @@ export default function About() {
       <h2>About</h2>
       <div className="container about-container">
         <div className="about-info">
-          <img
-            src={profilePic}
-            alt="portrait of Leah"
-          />
+          <img src={profilePic} alt="portrait of Leah" />
         </div>
 
         <div className="about-content">
@@ -42,13 +39,13 @@ export default function About() {
             <article className="about-card">
               <FaLaptopCode className="about-icon" />
               <h5>Northcoders Graduate</h5>
-              <small>480 contact hours</small>
+              <small>13 weeks / 480 contact hours</small>
             </article>
 
             <article className="about-card">
               <FaProjectDiagram className="about-icon" />
               <h5>Projects</h5>
-              <small>10+ solo, paired and group projects completed</small>
+              <small>Solo, paired and group projects completed</small>
             </article>
 
             <article className="about-card">
@@ -68,14 +65,13 @@ export default function About() {
             Northcoders - an industry-leading coding bootcamp. With a background
             in Customer Happiness and People Management, I have a combination of
             experience in both tech and customer service that allows me to
-            communicate effectively, approach development projects from
-            different perspectives and apply innovative solutions with the user
-            always in mind. During my 13 weeks at Northcoders, I completed a
-            range of group, solo and paired projects, following Agile
-            methodlogies to facilitate efficiency and collaboration. As a
-            graduate of Fine Art Mixed Media, I am excited to bring my creative
-            passion to a team and create aesthetically-pleasing apps for users
-            to enjoy.
+            communicate effectively, approach development projects from a
+            user-centric perspective and apply inventive solutions. During my 13
+            weeks at Northcoders, I completed a range of group, solo and paired
+            projects, following Agile methodlogies to facilitate efficiency and
+            collaboration. As a graduate of Fine Art Mixed Media, I am excited
+            to bring my creative passion to a team and create
+            aesthetically-pleasing apps for users to enjoy.
           </p>
           <ul className="skills">
             <li>
