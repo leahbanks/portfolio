@@ -51,7 +51,7 @@
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .project-card {
@@ -188,18 +188,20 @@
   }
 
   .project-card {
-    width: 40vh;
+    width: 60vh;
   }
 }
 
-@media screen and (max-width: 1024px) and (min-height: 800px) {
+@media screen and (max-width: 1240px) and (min-width: 750px) {
   .project-container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 0rem;
+    gap: 0.5rem;
     place-items: center;
   }
 
   .project-card {
-    width: 60vh;
+    width: 80vh;
   }
 }
+
+

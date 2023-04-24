@@ -12,7 +12,7 @@ export default function Projects() {
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
-      <div className="see-more">
+      {/* <div className="see-more">
         <a
           className="see-more-btn"
           href={"https://github.com/leahbanks?tab=repositories"}
@@ -21,7 +21,7 @@ export default function Projects() {
         >
           See More
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }

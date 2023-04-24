@@ -1,5 +1,6 @@
 .projects {
-  padding: 30px;
+  padding: 50px;
+  padding-right: 0px;
 }
 
 .projects h2 {
@@ -11,15 +12,16 @@
 }
 
 .see-more {
-  padding: 30px;
   padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  padding-right: 67px;
 }
 
 .see-more-btn {
   display: inline-block;
   border: 1px solid salmon;
-  padding: 1rem 2rem;
-  margin: 0;
+  padding: 1rem 2.5rem;
   text-decoration: none;
   background: #f1efe9;
   color: black;
@@ -53,5 +55,12 @@
     padding: 0px;
     padding-bottom: 40px;
     text-align: center;
+  }
+
+  .see-more {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
   }
 }

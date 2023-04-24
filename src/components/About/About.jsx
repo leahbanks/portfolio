@@ -65,13 +65,13 @@ export default function About() {
             Northcoders - an industry-leading coding bootcamp. With a background
             in Customer Happiness and People Management, I have a combination of
             experience in both tech and customer service that allows me to
-            communicate effectively, approach development projects from a
-            user-centric perspective and apply inventive solutions. During my 13
-            weeks at Northcoders, I completed a range of group, solo and paired
-            projects, following Agile methodlogies to facilitate efficiency and
-            collaboration. As a graduate of Fine Art Mixed Media, I am excited
-            to bring my creative passion to a team and create
-            aesthetically-pleasing apps for users to enjoy.
+            communicate effectively and approach development projects from a
+            user-centric perspective. During my 13 weeks at Northcoders, I
+            completed a range of group, solo and paired projects, following
+            Agile methodlogies to facilitate efficiency and collaboration. As a
+            graduate of Fine Art Mixed Media, I am excited to bring my creative
+            passion to a team and create aesthetically-pleasing apps for users
+            to enjoy.
           </p>
           <ul className="skills">
             <li>
