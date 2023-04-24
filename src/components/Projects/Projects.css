@@ -46,6 +46,16 @@
   }
 }
 
+@media screen and (max-width: 1240px) and (min-width: 750px) {
+  .projects h2 {
+    text-align: center;
+  }
+
+  .projects {
+    padding: 0px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .projects {
     padding: 0px;
