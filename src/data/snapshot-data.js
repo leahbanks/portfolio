@@ -16,12 +16,8 @@ export const ncNewsSnapshots = [
     img: "assets/fe-ncnews/4.png",
   },
   {
-    name: "fourthNCNews",
+    name: "fifthNCNews",
     img: "assets/fe-ncnews/5.png",
-  },
-  {
-    name: "fourthNCNews",
-    img: "assets/fe-ncnews/6.png",
   },
 ];
 
