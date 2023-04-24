@@ -1,4 +1,4 @@
-#about {
+/* #about {
   height: auto;
   padding-right: 0px;
   padding-left: 0px;
@@ -243,5 +243,253 @@ background: salmon;
     height: 300px;
     border: solid 1px salmon;
     box-shadow: 8px 10px rgb(48, 44, 44);
+  }
+} */
+
+#about {
+  height: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: rgb(48, 44, 44);
+  font-size: 9vw;
+  padding: 30px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 12%;
+}
+
+.about-info {
+  padding: 0px;
+}
+
+/* .about-info img {
+  width: 80%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: none;
+} */
+.about-info img {
+  width: 75%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.about-card {
+  border: 1px solid transparent;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.about-card:hover {
+  border-color: salmon;
+  cursor: default;
+}
+
+.about-icon {
+  color: salmon;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about__card h5 {
+  font-size: 0.95rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--colour-light);
+}
+
+.about-content p {
+  margin: 1rem 0 2rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: salmon;
+  font-size: 5vh;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.confluence {
+  font-size: 3vh;
+  padding-top: 10px;
+}
+
+.cv-btn {
+  display: inline-block;
+  border: 1px solid salmon;
+  padding: 1rem 4rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-btn {
+  display: inline-block;
+  border: 1px solid salmon;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f1efe9;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cv-btn:hover {
+color: #f1efe9;
+background: salmon;
+}
+
+.contact-btn:hover {
+  color: #f1efe9;
+  background: salmon;
+  }
+
+.about__content a:hover {
+  color: #f1efe9;
+  background: salmon;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) and (min-height: 800px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about-info {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+
+  #about {
+    height: auto;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  h2 {
+    padding: 30px;
+    text-align: center;
+  }
+  .about-info {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about-content p {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about-cards {
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content p {
+    margin: 1.5rem 1rem;
+  }
+
+  h2 {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .about-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .about-çcontent p {
+    padding-right: 20px;
+  }
+
+  #about {
+    height: auto;
+    padding: 5px;
+    padding-bottom: 100px;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    color: salmon;
+    font-size: 2.5vh;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+
+  .confluence {
+    font-size: 1.5vh;
+    padding-top: 4px;
   }
 }
