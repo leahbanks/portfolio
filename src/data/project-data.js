@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "Through the Fog",
     type: "Group Project",
-    info: "Through the Fog is a mobile app and interactive game built using React Native. The app uses the Google Maps API and geolocational data from your phone to unveil the areas you have visited in real time, allowing you to see which parts of the world you have discovered in detail. With help from the Through the Fog API, a user is able to create an account, store their progress/data, view scoreboards and post photo markers to document their travels. A demo and presentation of the app can be viewed by clicking the link in the top right corner of this card.",
+    info: "A mobile app and interactive game built using React Native. Through the Fog uses the Google Maps API and geolocational data from your phone to unveil the areas you have visited in real time. With help from the Through the Fog API, a user is able to create an account, store their progress/data, view scoreboards and post photo markers to document their travels. Click the link to find out more.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react native logo", img: <TbBrandReactNative /> },
