@@ -48,15 +48,15 @@ export default function About() {
             </article>
 
             <article className="about-card">
-              <FaUserGraduate className="about-icon" />
-              <h5>Bachelor of Arts</h5>
-              <small>First Class Honours</small>
+              <FaUsers className="about-icon" />
+              <h5>UX & Customer Happiness</h5>
+              <small>10 years experience</small>
             </article>
 
             <article className="about-card">
-              <FaUsers className="about-icon" />
-              <h5>Customer Happiness</h5>
-              <small>10 years experience</small>
+              <FaUserGraduate className="about-icon" />
+              <h5>Bachelor of Arts</h5>
+              <small>First Class Honours</small>
             </article>
           </div>
           <p>
