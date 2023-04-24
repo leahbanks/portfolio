@@ -14,7 +14,6 @@ import {
   DiPostgresql,
   DiHtml5,
   DiCss3,
-  DiAtlassian,
   DiGit,
   DiNodejs,
   DiTrello,
