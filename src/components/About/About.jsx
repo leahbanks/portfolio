@@ -74,8 +74,8 @@ export default function About() {
             to enjoy.
           </p>
           <ul className="skills">
-            <li>
-              <DiJsBadge />
+            <li title="Javascript logo">
+              < DiJsBadge title="Javascript logo"/>
             </li>
             <li>
               <DiReact />
@@ -100,9 +100,6 @@ export default function About() {
             </li>
             <li>
               <DiGit />
-            </li>
-            <li>
-              <DiAtlassian />
             </li>
             <li className="confluence">
               <SiConfluence />
