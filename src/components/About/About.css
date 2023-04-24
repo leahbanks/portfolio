@@ -114,6 +114,16 @@ h2 {
   text-align: center;
 }
 
+.cv-btn:hover {
+color: #f1efe9;
+background: salmon;
+}
+
+.contact-btn:hover {
+  color: #f1efe9;
+  background: salmon;
+  }
+
 .about__content a:hover {
   color: #f1efe9;
   background: salmon;
