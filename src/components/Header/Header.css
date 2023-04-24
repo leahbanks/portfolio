@@ -1,4 +1,4 @@
-@keyframes fadeInAnimation {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -16,7 +16,7 @@
 }
 
 .header h1 {
-  animation: fadeInAnimation ease-in 1s;
+  animation: fade-in ease-in 1s;
   display: block;
   font-weight: 800;
   font-stretch: condensed;
