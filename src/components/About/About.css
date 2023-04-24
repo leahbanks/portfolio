@@ -2,16 +2,16 @@
   height: auto;
   padding-right: 0px;
   padding-left: 0px;
-  padding-top: 0px;
+  padding-top: -10px;
   padding-bottom: 50px;
 }
 
 h2 {
   color: rgb(48, 44, 44);
-  font-size: 9vw;
-  padding: 30px;
+  font-size: 8vw;
+  padding: 10px;
   padding-right: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: right;
 }
 
@@ -26,18 +26,19 @@ h2 {
 }
 
 .about-info img {
-  width: 80%;
-  border-radius: 50%;
-  overflow: hidden;
-  background: none;
+  width: 300px;
+  height: 410px;
+  border: solid 1px salmon;
+  box-shadow: 8px 8px rgb(48, 44, 44);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .about-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0rem;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-bottom: 10px;
 }
 
 .about-card {
@@ -80,8 +81,8 @@ h2 {
   gap: 1rem;
   color: salmon;
   font-size: 5vh;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .confluence {
@@ -212,7 +213,7 @@ background: salmon;
     gap: 0.5rem;
   }
 
-  .about-çcontent p {
+  .about-content p {
     padding-right: 20px;
   }
 
@@ -235,5 +236,12 @@ background: salmon;
   .confluence {
     font-size: 1.5vh;
     padding-top: 4px;
+  }
+
+  .about-info img {
+    width: 220px;
+    height: 300px;
+    border: solid 1px salmon;
+    box-shadow: 8px 10px rgb(48, 44, 44);
   }
 }
