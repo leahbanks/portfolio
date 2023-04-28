@@ -3,9 +3,10 @@
   display: flex;
   scroll-snap-type: x mandatory;
   margin: 5%;
-  height: 45vh;
+  height: 47vh;
   gap: 1rem;
 }
+
 
 .fog-snapshots {
   flex-shrink: 0;
@@ -14,6 +15,7 @@
   height: 42vh;
   margin-right: 2%;
   margin-left: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
   border-radius: 6%;
   border: 1px solid black;
@@ -27,6 +29,7 @@
   padding: 10px;
   padding-top: 25px;
 }
+
 
 .tech {
   display: flex;
@@ -184,6 +187,12 @@
   .project-card {
     width: 40vh;
   }
+
+  .snapshots-container:hover {
+    transform: scale(1.5);
+    margin-left: 55px;
+    margin-right: 55px;
+  }
 }
 
 @media screen and (max-width: 1240px) and (min-width: 750px) {
@@ -196,6 +205,7 @@
   .project-card {
     width: 80vh;
   }
+
 }
 
 
