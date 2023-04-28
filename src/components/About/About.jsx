@@ -16,24 +16,22 @@ import {
   DiCss3,
   DiGit,
   DiNodejs,
-  DiTrello,
-  DiJira,
   DiNpm,
 } from "react-icons/di";
 import profilePic from "../../profile-pic.jpg";
 
-import { SiConfluence, SiExpress } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 
 export default function About() {
   return (
     <section id="about">
-      <h2>About</h2>
       <div className="about-container">
         <div className="about-info">
           <img src={profilePic} alt="portrait of Leah" />
         </div>
 
         <div className="about-content">
+          <h2>About Me</h2>
           <div className="about-cards">
             <article className="about-card">
               <FaLaptopCode className="about-icon" />
@@ -49,7 +47,7 @@ export default function About() {
 
             <article className="about-card">
               <FaUsers className="about-icon" />
-              <h5>UX & Customer Happiness</h5>
+              <h5>E-Commerce & Retail</h5>
               <small>10 years experience</small>
             </article>
 
@@ -60,21 +58,21 @@ export default function About() {
             </article>
           </div>
           <p>
-            I am a Full Stack Developer who has recently graduated from
-            Northcoders - an industry-leading coding bootcamp. With a background
-            in Customer Happiness and People Management, I have a combination of
-            experience in both tech and customer service that allows me to
-            communicate effectively and approach development projects from a
-            user-centric perspective. During my 13 weeks at Northcoders, I
-            completed a range of group, solo and paired projects, following
-            Agile methodlogies to facilitate efficiency and collaboration. As a
-            graduate of Fine Art Mixed Media, I am excited to bring my creative
-            passion to a team and create aesthetically-pleasing apps for users
-            to enjoy.
+            I am a Full Stack Developer with a proficiency in Javascript, HTML,
+            CSS and Node. With a background in e-commerce & team management and
+            as a graduate of the industry-leading Northcoders bootcamp, I have a
+            combination of experience that allows me to communicate effectively
+            and approach development projects with a user-centric mindset.
+            During my 13 weeks at Northcoders, I completed a range of group,
+            solo and paired projects; adapting to various tech stacks and
+            following Agile methodlogies to facilitate efficiency and
+            collaboration. As a graduate of Fine Art Mixed Media, I am excited
+            to bring my creative passion to a team and develop
+            aesthetically-pleasing apps for users to enjoy.
           </p>
           <ul className="skills">
             <li title="Javascript logo">
-              < DiJsBadge title="Javascript logo"/>
+              <DiJsBadge title="Javascript logo" />
             </li>
             <li>
               <DiReact />
@@ -99,15 +97,6 @@ export default function About() {
             </li>
             <li>
               <DiGit />
-            </li>
-            <li className="confluence">
-              <SiConfluence />
-            </li>
-            <li>
-              <DiJira />
-            </li>
-            <li>
-              <DiTrello />
             </li>
           </ul>
           <div className="about-buttons">
