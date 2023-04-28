@@ -231,7 +231,7 @@ background: salmon;
   .skills {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.3rem;
     color: salmon;
     font-size: 3vh;
     padding: 20px;
