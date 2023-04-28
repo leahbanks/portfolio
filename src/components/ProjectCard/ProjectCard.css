@@ -187,12 +187,6 @@
   .project-card {
     width: 40vh;
   }
-
-  .snapshots-container:hover {
-    transform: scale(1.5);
-    margin-left: 55px;
-    margin-right: 55px;
-  }
 }
 
 @media screen and (max-width: 1240px) and (min-width: 750px) {
