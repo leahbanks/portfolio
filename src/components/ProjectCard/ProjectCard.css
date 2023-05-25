@@ -11,6 +11,7 @@
 .fog-snapshots {
   flex-shrink: 0;
   scroll-snap-align: start;
+  overflow-y: hidden;
   width: 19vh;
   height: 42vh;
   margin-right: 2%;
