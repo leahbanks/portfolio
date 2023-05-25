@@ -91,6 +91,20 @@ export const projects = [
     website: "",
   },
   {
+    title: "Carbon Intensity",
+    type: "Solo Project",
+    info: "Carbon Intensity is an online Carbon Calculator I began developing during a solo sprint at Northcoders. Using the Carbon Intensity API by the National Grid, a user can enter their postcode to find out the current Carbon Intensity in their area and view the different types of fuel contributing to the intensity on a Radar graph. More features are to be added as I continue to work on the project.",
+    tech: [
+      { name: "javascript logo", img: <DiJsBadge /> },
+      { name: "react logo", img: <DiReact /> },
+      { name: "html-logo", img: <DiHtml5 /> },
+      { name: "css logo", img: <DiCss3 /> },
+    ],
+    code: "github.com/leahbanks/carbon-intensity",
+    snapshots: [],
+    website: "",
+  },
+  {
     title: "Calculator",
     type: "Solo Project",
     info: "A mini calculator project built in React that is able to perform simple calculations. This is an example of many mini React/React Native apps that I plan to create in order to practice and refine my use of HTML, CSS, React Hooks and soon - Typescript and SASS.",
@@ -105,23 +119,9 @@ export const projects = [
     website: "",
   },
   {
-    title: "NC Marketplace",
+    title: "Marketplace",
     type: "Paired Project",
-    info: "NC Marketplace is an online buying and selling site that I developed during a paired sprint at Northcoders. The site allows users to browse items, create an account, add items to their basket and upload and delete any items they have posted for sale. I am currently in the process of refining the styling and creating a copy of the private repo - to be uploaded soon! ",
-    tech: [
-      { name: "javascript logo", img: <DiJsBadge /> },
-      { name: "react logo", img: <DiReact /> },
-      { name: "html-logo", img: <DiHtml5 /> },
-      { name: "css logo", img: <DiCss3 /> },
-    ],
-    code: "",
-    snapshots: [],
-    website: "",
-  },
-  {
-    title: "Virtual Bookshelf",
-    type: "Solo Project",
-    info: "Virtual Bookshelf is an online bookstore I developed using the Google Books API during a solo sprint at Northcoders. The bookstore allows users to search for books by name or author, find out more information and add them to their reading list. I am currently in the process of refining the styling and creating a copy of the private repo - to be uploaded soon!",
+    info: "Marketplace is an online buying and selling site that I developed during a paired sprint at Northcoders. The site allows users to browse items, create an account, add items to their basket and upload and delete any items they have posted for sale. I am currently in the process of refining the styling and creating a copy of the private repo - to be uploaded soon! ",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
