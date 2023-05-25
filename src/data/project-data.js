@@ -100,7 +100,7 @@ export const projects = [
       { name: "html-logo", img: <DiHtml5 /> },
       { name: "css logo", img: <DiCss3 /> },
     ],
-    code: "github.com/leahbanks/carbon-intensity",
+    code: "https://github.com/leahbanks/carbon-intensity",
     snapshots: [],
     website: "",
   },
