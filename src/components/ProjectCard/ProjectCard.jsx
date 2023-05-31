@@ -46,7 +46,7 @@ export default function ProjectCard({ project }) {
               {snapshots.map((snapshot) => (
                 <img
                   className={
-                    title === "NC News" ? "news-snapshots" : "fog-snapshots"
+                    title === "NewsBank" ? "news-snapshots" : "fog-snapshots"
                   }
                   src={snapshot.img}
                   alt={`snapshot of ${title}`}
