@@ -17,9 +17,9 @@ import { SiPassport, SiGooglemaps, SiExpress } from "react-icons/si";
 
 export const projects = [
   {
-    title: "NC News",
+    title: "NewsBank",
     type: "Solo Project",
-    info: "NC News is an interactive web application built using React with a mobile-first mindset and responsive layout. It serves as a news aggregation and comments board, allowing users to log in, browse the various articles by topic/popularity and get involved in the discussion. The app uses the NC News API to fetch the stories and allow the logged in user to interact with them via comments and votes.",
+    info: "NewsBank is an interactive web application built using React with a mobile-first mindset and responsive layout. It serves as a news aggregation and comments board, allowing users to log in, browse the various articles by topic/popularity and get involved in the discussion. The app uses the NC News API to fetch the stories and allow the logged in user to interact with them via comments and votes.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
@@ -47,9 +47,9 @@ export const projects = [
       "https://user-images.githubusercontent.com/23381975/229468456-36d01223-2820-46d6-86a5-441aef5a1640.mp4",
   },
   {
-    title: "NC News API",
+    title: "NewsBank API",
     type: "Solo Project",
-    info: "NC News API is a RESTful API built using Javascript, Node.js, PostgreSQL and Express.js. It has been designed to provide the functionality behind and interactive web application, which will serve as a Reddit-style news aggregation and comments board.",
+    info: "NewsBank API is a RESTful API built using Javascript, Node.js, PostgreSQL and Express.js. It has been designed to provide the functionality behind and interactive web application, which will serve as a Reddit-style news aggregation and comments board.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "postgresql logo", img: <DiPostgresql /> },
