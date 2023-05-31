@@ -79,7 +79,7 @@ export const projects = [
   {
     title: "Portfolio",
     type: "Solo Project",
-    info: "This porfolio site was built with a mobile-first mindset and a fully responsive design that is compatible with various screen sizes, using React, HTML and CSS. I have integrated EmailJS so that I am able to receive emails from visitors who use the contact form and a CSS-only carousel for users to view snapshots of my projects.",
+    info: "This portfolio site was built with a mobile-first mindset and a fully responsive design that is compatible with various screen sizes, using React, HTML and CSS. I have integrated EmailJS so that I am able to receive emails from visitors who use the contact form and a CSS-only carousel for users to view snapshots of my projects.",
     tech: [
       { name: "javascript logo", img: <DiJsBadge /> },
       { name: "react logo", img: <DiReact /> },
