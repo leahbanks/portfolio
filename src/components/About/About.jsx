@@ -100,7 +100,7 @@ export default function About() {
             </li>
           </ul>
           <div className="about-buttons">
-            <a className="cv-btn" href="CV-LB.pdf" target="_blank">
+            <a className="cv-btn" href="https://www.canva.com/design/DAFkYknpICI/view" target="_blank" rel="noreferrer">
               CV
             </a>
             <a href="#contact" className="contact-btn">

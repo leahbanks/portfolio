@@ -7,7 +7,7 @@ export default function SideNav() {
   return (
     <section className="side-nav">
       <div className="side-nav-cv">
-        <a className="cv" href="CV-LB.pdf" target="_blank">
+        <a className="cv" href="https://www.canva.com/design/DAFkYknpICI/view" target="_blank" rel="noreferrer">
           CV
         </a>
       </div>
